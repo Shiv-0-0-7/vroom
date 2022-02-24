@@ -1,0 +1,35 @@
+h1{
+    padding-left:100px;
+    color:blue
+    
+}
+.item {
+    position:relative
+}
+ .item p{position:absolute;
+top:50%;left:50%;
+transform:translate(-50%,-50%);
+opacity:0;
+ }
+.item:hover p{opacity:1}
+.item:hover img{opacity:0.33}
+.menu a {
+    margin-left:20px;
+}
+div{
+    border:solid
+}
+.Dashoe{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+p{
+    text-align: center;
+}
+img{
+    width:70%;
+    height:70%;
+} 
+.header *{
+    border:solid;}
